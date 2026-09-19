@@ -40,8 +40,7 @@ live cards.
 | Ticket | My ticket | Purchased tickets |
 | Movie | Movie | Popular / Upcoming lists |
 | Profile | Profile | Account settings |
-Flow:
- **Splash → Sign in / Sign up → Home → Details → Seats → Payment → Ticket**.
+Flow:**Splash → Sign in / Sign up → Home → Details → Seats → Payment → Ticket**.
 
 Dark cinema UI, gold accent `#FCC434`.
 
@@ -77,8 +76,13 @@ flutter run --dart-define=TMDB_API_KEY=your_tmdb_api_key
 Get a key from TMDB API settings. The Dio client uses https://api.themoviedb.org/3.
 
 3. Run
+ ```bash
+
 flutter pub get
+
 flutter run --dart-define=TMDB_API_KEY=your_tmdb_api_key
+
+ ```
 Notes
 Cinema list and seat map are demo data (Consts + in-memory booking draft).
 Home search field is not wired to TMDB search yet.
