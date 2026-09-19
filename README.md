@@ -40,7 +40,10 @@ live cards.
 | Ticket | My ticket | Purchased tickets |
 | Movie | Movie | Popular / Upcoming lists |
 | Profile | Profile | Account settings |
-Flow:**Splash → Sign in / Sign up → Home → Details → Seats → Payment → Ticket**.
+
+
+## Flow:
+**Splash → Sign in / Sign up → Home → Details → Seats → Payment → Ticket**.
 
 Dark cinema UI, gold accent `#FCC434`.
 
